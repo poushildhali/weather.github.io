@@ -1,0 +1,39 @@
+/* @Import Url("Https://Fonts.Googleapis.Com/Css2?Family=Poppins:wght@200;400;600&Display=Swap"); */
+* {
+    Box-Sizing: Border-Box;
+}
+Body {
+    Margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url(https://imgs.search.brave.com/_WsLBtMiWLT_LNhDXUKvtER2yKFUoKavi9WWLWxq4xw/rs:fit:1016:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5X/aDVWbnBBNkJQRXMx/SUwwQm9pTEhnSGFE/ZCZwaWQ9QXBp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    Display: Flex;
+    Justify-Content: Center;
+    Align-Items: Center;
+    Min-Height: 100vh;
+    Flex-Direction: Column;
+}
+Input {
+    Padding: 1rem;
+    Border-Radius: 25px;
+    Border: None;
+    Background-Color: rgb(255, 255, 255);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    Box-Shadow: 0 4px 10px Rgba(0, 0, 0, 0.2);
+    Min-Width: 300px;
+    Font-Size: 25px;
+}
+Input:focus {
+    Outline: None;
+}
+.Weather {
+    Text-Align: Center;
+    Font-Size: 2rem;
+}
+.Weather H2 {
+    Margin-Bottom: 0;
+    Display: Flex;
+    Align-Items: Center;
+}
+ 
